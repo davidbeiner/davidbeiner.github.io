@@ -1,13 +1,23 @@
-p {
-	font-family: helvetica;
-	font-size: 12px;
-	color: black;
-}
-
 h1 {
 	font-family: helvetica;
 	font-size: 12px;
 	color: black;
 }
 
+
+p {
+	font-family: helvetica;
+	font-size: 12px;
+	color: black;
+	margin: 20px;
+	padding-left: 10px;
+}
+
+#my-id {
+	color: red;
+}
+
+.my-class {
+	color: blue;
+}
 
