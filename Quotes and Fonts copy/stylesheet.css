@@ -1,0 +1,280 @@
+body {
+	margin: 0px;
+
+}
+
+.header { 
+	height: 435px;
+	background-color: #D1CDCD;
+	margin-top: -8px;
+
+}
+
+.pagetitle {
+	font-family: 'Italiana', serif;
+	font-size: 87px;
+	text-align: center;
+	position: relative;
+	top: 54px;
+	right: 7px;
+}
+
+
+.intro {
+	font-size: 15px;
+	font-family: 'Pontano Sans', sans-serif;
+	color: #666;
+	width: 870px;	
+	border: 1px solid white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pintro {
+	width: 45%;
+	float: left;
+	line-height: 25px;
+	padding: 21px 0 0 0;
+	font-size: 20px;
+}
+
+
+ul {
+	float: left;
+	position: relative;
+	top: 7px;
+	left: 100px; 
+	line-height: 22px;
+	padding: 29px 0 0 0;
+
+}
+
+li {
+	list-style: none;
+	font-size: 15px;
+	color: #666;
+}
+
+.q1 { 
+	background: #EF4723; 
+	color: #222222;
+	height: 850px;
+	margin-top: -58px;
+	margin-bottom: -85px;
+}
+
+
+.q1text {
+	font-family: 'Courgette', cursive;	
+	font-size: 58px;
+	position: relative;
+	top: 274px;
+	text-align: center;
+}
+
+.q1author {
+	font-family: 'Crimson Text', serif;
+	position: relative;
+    text-align: center;
+    top: 300px;
+
+}
+
+.q2 {
+	height: 795px;
+	background: black;
+}
+
+.q2text {
+	font-family: 'Archivo Narrow', sans-serif;
+	border-bottom: 2px solid #CFC8C8;
+	font-size: 85px;
+	text-align: left;
+	width: 76%;
+	padding: 87px 75px 1px 104px;
+	color: white;
+}
+
+.q2author {
+	font-family: 'Fjord One', serif;
+	color: white;
+	font-size: 24px;
+	text-align: left;
+	position: relative;
+	left: 1040px;
+}
+
+.q3 {
+	height: 945px;
+	background: #FBD605;
+	margin-top: -16px;
+	
+}
+
+.q3text { 
+	color: #03070D;
+	font-family: 'Rosarivo', serif;
+	font-size: 19px;
+	text-align: center;
+	line-height: 163px;
+	padding-top: 138px;
+}
+
+span {
+	font-style: italic;
+	font-weight: 400;
+	opacity: .7;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 98px;
+	text-transform: uppercase;
+
+}
+
+
+
+.q4 {
+	background: #00267E;
+	opacity: .94;
+	height: 400px;
+	font-family: 'Old Standard TT', serif;
+	color: #EBF5FF;
+	padding-top: 205px;
+	font-size: 23px;
+}
+
+.q4wrapper {
+	padding-left: 125px;
+	position: relative;
+	bottom: 153px;
+	margin-bottom: 4px;
+}
+
+.q4text1 {
+	color: #D8D8E3;
+}
+
+.q4text2 {
+	color: #AEBFCF;
+}
+
+.q4text3 {
+	color: #86939E;
+}
+
+.q4text4 {
+	color: #697480;
+}
+
+.q4author {
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	position: relative;
+	color: #697480;
+	text-align: right;
+	padding-right: 88px;
+}
+
+
+.q5 {
+	height: 500px;
+	padding-left: 58px;
+	padding-top: 149px;
+}
+
+.q5text {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 42px;
+	padding-bottom: 99px;
+}
+
+.q5author {	
+	font-family: 'Lato', sans-serif;
+	border-top: 2px solid black;
+	text-align: right;
+	padding-top: 15px;
+	padding-right: 36px;
+	font-size: 20px;
+}
+
+.q6 {
+	font-family: 'PT Serif', serif;
+	height: 700px;
+	font-size: 37px;
+	background: #EDE0CE;
+	color: #161616;
+	text-align: left;
+	border: 2px solid white;
+	padding-top: 279px;
+	font-style: italic;
+	line-height: 70px;
+}
+
+
+
+.q6border{
+	border: white solid 2.3px;
+	padding-left: 158px;
+}
+
+.q6text {
+	width: 92%;
+}
+
+.q6author {
+
+
+}
+
+.q7 {
+	border: 2px solid red;
+	height: 435px;
+}
+
+@media screen and (max-width: 480px) {
+
+.header { 
+	height: 435px;
+	background-color: #D1CDCD;
+	margin-top: -8px;
+
+}
+
+.pagetitle {
+	font-family: 'Italiana', serif;
+	font-size: 42px;
+	text-align: center;
+	position: relative;
+	top: 20px;
+	right: 7px;
+}
+
+ul {
+	position: relative;
+	left: -380px;
+	top: 168px
+	
+
+}
+
+.q2 {
+	height: 530px;
+}
+
+.q2text {
+	font-family: 'Archivo Narrow', sans-serif;
+	border-bottom: 2px solid #CFC8C8;
+	font-size: 24px;
+	text-align: left;
+	width: 76%;
+	padding: 87px 75px 1px 104px;
+	color: white;
+}
+
+
+
+
+
+	}
+	
+}
