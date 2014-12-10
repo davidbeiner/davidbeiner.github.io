@@ -1,100 +1,22 @@
-/* entire container, keeps perspective */
-.flip-container {
-	perspective: 1000;
-	height: 945px;
-}
-	/* flip the pane when hovered */
-	.flip-container:hover .flipper, .flip-container.hover .flipper {
-		transform: rotateY(180deg);
-	}
-
-.flip-container1, .front, .back {
-	width: 100%;
-	height: 945px;
-}
-
-/* flip speed goes here */
-.flipper {
-	transition: 1s;
-	transform-style: preserve-3d;
-
-	position: relative;
-}
-
-/* hide back of pane during swap */
-.front, .back {
-	backface-visibility: hidden;
-
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-/* front pane, placed above back */
-.front {
-	z-index: 2;
-	/* for firefox 31 */
-	transform: rotateY(0deg);
-}
-
-/* back, initially hidden pane */
-.back {
-	transform: rotateY(180deg);
-}
-
-.car {
-	height: 945px;
-	width: 1400px;
-	display: block;	
-	margin: auto;
-}
-
-.carback {
-	background: #003366; 
-}
-
-.handback {
-	background: #663366;
-}
-
-.manback {
-	background: #003366;
-	height: 1077px;
-	padding-top: 90px;
-}
-
-img. {
-	height: 945px;
-	width: 100%;
-}
-
 body {
 	margin: 0px;
 
 }
 
-.sunset {
-	width: 100%;
-	height: 850px;
-}
-
-.q1.hover {
-	color: white;
-}
-
 .header { 
-	height: 500px;
+	height: 435px;
 	background-color: #D1CDCD;
+	margin-top: -8px;
 
 }
 
 .pagetitle {
 	font-family: 'Italiana', serif;
-	font-size: 85px;
+	font-size: 87px;
 	text-align: center;
-	margin: 0;
-	padding-top: 50px;
-	padding-bottom: 15px;
+	position: relative;
+	top: 54px;
+	right: 7px;
 }
 
 
@@ -111,51 +33,50 @@ body {
 .pintro {
 	width: 45%;
 	float: left;
-	line-height: 30px;
-	padding: 31px 0 0 50px;
-	font-size: 18px;
+	line-height: 25px;
+	padding: 21px 0 0 0;
+	font-size: 20px;
 }
 
 
 ul {
 	float: left;
+	position: relative;
+	top: 7px;
+	left: 100px; 
 	line-height: 22px;
-	padding: 39px 0 0 100px;
-	color: #EF4723
-	
+	padding: 29px 0 0 0;
 
 }
-
 
 li {
 	list-style: none;
-	font-size: 21px;
-	color: #EF4723;
+	font-size: 15px;
+	color: #666;
 }
-
 
 .q1 { 
 	background: #EF4723; 
 	color: #222222;
-	height: 945px;
+	height: 850px;
+	margin-top: -58px;
+	margin-bottom: -85px;
 }
 
 
 .q1text {
 	font-family: 'Courgette', cursive;	
-	font-size: 60px;
-	padding-top: 330px;
-	margin: 0;
+	font-size: 58px;
+	position: relative;
+	top: 274px;
 	text-align: center;
 }
 
 .q1author {
 	font-family: 'Crimson Text', serif;
-	padding-top: 80px;
-	padding-right: 20px;
-	text-align: center;
-	margin: 0;
-    
+	position: relative;
+    text-align: center;
+    top: 300px;
 
 }
 
@@ -170,52 +91,62 @@ li {
 	font-size: 85px;
 	text-align: left;
 	width: 76%;
-	padding: 85px 75px 1px 105px;
+	padding: 87px 75px 1px 104px;
 	color: white;
-	margin: 0;
 }
 
 .q2author {
 	font-family: 'Fjord One', serif;
 	color: white;
-	font-size: 25px;
-	text-align: right;
-	padding: 45px 140px 0px 0px;
-	margin: 0;
+	font-size: 24px;
+	text-align: left;
+	position: relative;
+	left: 1040px;
 }
 
 .q3 {
-	height: 850px;
+	height: 945px;
 	background: #FBD605;
-	
+	margin-top: -16px;
 	
 }
 
 .q3text { 
 	color: #03070D;
 	font-family: 'Rosarivo', serif;
-	font-size: 45px;
+	font-size: 19px;
 	text-align: center;
-	line-height: 160px;
-	padding-top: 140px;
-	margin: 0;
+	line-height: 163px;
+	padding-top: 138px;
 }
+
+span {
+	font-style: italic;
+	font-weight: 400;
+	opacity: .7;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 98px;
+	text-transform: uppercase;
+
+}
+
 
 
 .q4 {
-
 	background: #00267E;
-	height: 950px;
-	font-family: 'Vollkorn', serif;
+	opacity: .94;
+	height: 400px;
+	font-family: 'Old Standard TT', serif;
 	color: #EBF5FF;
-	
+	padding-top: 205px;
+	font-size: 23px;
 }
 
 .q4wrapper {
-	font-size: 30px;
 	padding-left: 125px;
-	padding-top: 240px;
-	line-height: 30px;
+	position: relative;
+	bottom: 153px;
+	margin-bottom: 4px;
 }
 
 .q4text1 {
@@ -235,33 +166,26 @@ li {
 }
 
 .q4author {
-	font-size: 30px;
+	font-size: 18px;
 	text-transform: uppercase;
-	font-family: 'Old Standard TT', serif;
-	letter-spacing: 5px;
+	letter-spacing: 6px;
+	position: relative;
 	color: #697480;
 	text-align: right;
-	padding-right: 95px;
-	padding-top: 200px;
-	margin: 0;
+	padding-right: 88px;
 }
 
 
 .q5 {
-	height: 675px;
-	padding-left: 60px;
-	
-}
-
-.q5textwrapper {
-	padding-top: 170px;
+	height: 500px;
+	padding-left: 58px;
+	padding-top: 149px;
 }
 
 .q5text {
 	font-family: 'Abril Fatface', cursive;
-	font-size: 40px;
-	margin-bottom: 0px;
-	margin-top: 0px;
+	font-size: 42px;
+	padding-bottom: 99px;
 }
 
 .q5author {	
@@ -269,13 +193,13 @@ li {
 	border-top: 2px solid black;
 	text-align: right;
 	padding-top: 15px;
-	padding-right: 35px;
+	padding-right: 36px;
 	font-size: 20px;
 }
 
 .q6 {
 	font-family: 'PT Serif', serif;
-	height: 795px;
+	height: 700px;
 	font-size: 37px;
 	background: #EDE0CE;
 	color: #161616;
@@ -305,31 +229,6 @@ li {
 .q7 {
 	border: 2px solid red;
 	height: 435px;
-}
-
-/*links */
-
-a:link {
-    color: #EF4723;
-    text-decoration: none;
-}
-
-/* visited link */
-a:visited {
-    color: #EF4723;
-    text-decoration: none;
-}
-
-/* mouse over link */
-a:hover {
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
-/* selected link */
-a:active {
-    color: #FFFFFF;
-    text-decoration: none;
 }
 
 @media screen and (max-width: 480px) {
