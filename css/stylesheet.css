@@ -1,83 +1,32 @@
-/* entire container, keeps perspective */
-.flip-container {
-	perspective: 1000;
-	height: 945px;
-}
-	/* flip the pane when hovered */
-	.flip-container:hover .flipper, .flip-container.hover .flipper {
-		transform: rotateY(180deg);
-	}
-
-.flip-container1, .front, .back {
-	width: 100%;
-	height: 945px;
-}
-
-/* flip speed goes here */
-.flipper {
-	transition: 1s;
-	transform-style: preserve-3d;
-
-	position: relative;
-}
-
-/* hide back of pane during swap */
-.front, .back {
-	backface-visibility: hidden;
-
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-/* front pane, placed above back */
-.front {
-	z-index: 2;
-	/* for firefox 31 */
-	transform: rotateY(0deg);
-}
-
-/* back, initially hidden pane */
-.back {
-	transform: rotateY(180deg);
-}
-
-.car {
-	height: 945px;
-	width: 1400px;
-	display: block;	
-	margin: auto;
-}
-
-.carback {
-	background: #003366; 
-}
-
-.handback {
-	background: #663366;
-}
-
-.manback {
-	background: #003366;
-	height: 1077px;
-	padding-top: 90px;
-}
-
-img. {
-	height: 945px;
-	width: 100%;
-}
-
 body {
 	margin: 0px;
 
 }
 
-.sunset {
-	width: 100%;
-	height: 850px;
+/*links */
+
+a:link {
+    color: #EF4723;
+    text-decoration: none;
 }
 
+/* visited link */
+a:visited {
+    color: #EF4723;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #FFFFFF;
+    text-decoration: none;
+}
 .q1.hover {
 	color: white;
 }
@@ -112,7 +61,7 @@ body {
 	width: 45%;
 	float: left;
 	line-height: 30px;
-	padding: 31px 0 0 50px;
+	padding: 19px 0 0 50px;
 	font-size: 18px;
 }
 
@@ -120,7 +69,7 @@ body {
 ul {
 	float: left;
 	line-height: 22px;
-	padding: 39px 0 0 100px;
+	padding: 24px 0 0 100px;
 	color: #EF4723
 	
 
@@ -307,30 +256,77 @@ li {
 	height: 435px;
 }
 
-/*links */
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000;
+	height: 945px;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
 
-a:link {
-    color: #EF4723;
-    text-decoration: none;
+.flip-container1, .front, .back {
+	width: 100%;
+	height: 945px;
 }
 
-/* visited link */
-a:visited {
-    color: #EF4723;
-    text-decoration: none;
+/* flip speed goes here */
+.flipper {
+	transition: 1s;
+	transform-style: preserve-3d;
+
+	position: relative;
 }
 
-/* mouse over link */
-a:hover {
-    color: #FFFFFF;
-    text-decoration: none;
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
-/* selected link */
-a:active {
-    color: #FFFFFF;
-    text-decoration: none;
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
 }
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
+
+.car {
+	height: 945px;
+	width: 1400px;
+	display: block;	
+	margin: auto;
+}
+
+.carback {
+	background: #003366; 
+}
+
+.handback {
+	background: #663366;
+}
+
+.manback {
+	background: #003366;
+	height: 1077px;
+	padding-top: 90px;
+}
+
+img. {
+	height: 945px;
+	width: 100%;
+}
+
+
 
 @media screen and (max-width: 480px) {
 
